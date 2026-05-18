@@ -19,7 +19,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-navy-900 text-slate-100 antialiased">
+      <body style={{ margin: 0, padding: 0, overflow: 'hidden' }}>
         {children}
       </body>
     </html>
